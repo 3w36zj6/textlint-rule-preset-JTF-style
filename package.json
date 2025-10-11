@@ -40,12 +40,12 @@
     "translation"
   ],
   "devDependencies": {
-    "@textlint/legacy-textlint-core": "^14.4.0",
-    "glob": "^8.0.3",
-    "lint-staged": "^15.2.10",
+    "@textlint/legacy-textlint-core": "^15.2.2",
+    "glob": "^11.0.3",
+    "lint-staged": "^16.2.3",
     "prettier": "^3.4.1",
-    "textlint-scripts": "^14.4.0",
-    "textlint-tester": "^14.4.0"
+    "textlint-scripts": "^15.2.2",
+    "textlint-tester": "^15.2.2"
   },
   "dependencies": {
     "analyze-desumasu-dearu": "^2.1.2",
