@@ -24,9 +24,11 @@ jobs:
       - name: Set Env
         run: |
           echo "CURRENT_VERSION=$(node -p 'require("./package.json").version')" >> $GITHUB_ENV
-      - name: Install
-        run: pnpm install
-      - name: Build
+      - name: Install and Build Root
+        run: |
+          pnpm install
+          pnpm run build
+      - name: Build Website
         run: |
           pnpm install
           pnpm run website -- --metadataVersion="${CURRENT_VERSION}"
