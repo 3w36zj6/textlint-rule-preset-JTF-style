@@ -1,7 +1,7 @@
 // LICENSE : MIT
 "use strict";
 /*
-3.3. かっこ類と隣接する文字の間のスペースの有無
+2.3.2.かっこ類と隣接する文字の間のスペースの有無
 かっこの外側、内側ともにスペースを入れません。
  */
 import { isUserWrittenNode } from "./util/node-util";

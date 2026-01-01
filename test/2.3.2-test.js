@@ -1,9 +1,9 @@
 // LICENSE : MIT
 "use strict";
 import TextLintTester from "textlint-tester";
-import rule from "../src/3.3";
+import rule from "../src/2.3.2";
 var tester = new TextLintTester();
-tester.run("3.3.かっこ類と隣接する文字の間のスペースの有無", rule, {
+tester.run("2.3.2.かっこ類と隣接する文字の間のスペースの有無", rule, {
     valid: [
         "「良い」",
         "テスト［文章］です",

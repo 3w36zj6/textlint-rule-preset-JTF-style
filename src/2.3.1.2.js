@@ -6,7 +6,7 @@ import regx from "regx";
 import { japaneseRegExp } from "./util/regexp";
 const rx = regx("g");
 /*
-3.1.2. 全角文字どうし
+2.3.1.2.全角文字どうし
 
 原則として、全角文字どうしの間にスペースを入れません。ただしカタカナ複合語の場合を除きます。
 「2.1.7 カタカナ複合語」を参照してください。

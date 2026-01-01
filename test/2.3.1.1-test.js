@@ -1,9 +1,9 @@
 // LICENSE : MIT
 "use strict";
 import TextLintTester from "textlint-tester";
-import rule from "../src/3.1.1";
+import rule from "../src/2.3.1.1";
 var tester = new TextLintTester();
-tester.run("3.1.1. 全角文字と半角文字の間", rule, {
+tester.run("2.3.1.1.全角文字と半角文字の間", rule, {
     valid: [
         "JTF標準",
         "This is a pen.",
