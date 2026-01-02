@@ -448,7 +448,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td>不可</td>
-    <td>24</td>
+    <td>31</td>
     <td>JIS規格Z8202「量及び単位」、Z8203「国際単位系(SI)及びその使い方」に従う。</td>
     <td></td>
     <td>単位系</td>
@@ -456,7 +456,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>24</td>
+    <td>32</td>
     <td>主に、英字による表記とカタカナによる表記がある。</td>
     <td></td>
     <td>単位記号の表記</td>
@@ -464,7 +464,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>24</td>
+    <td>32</td>
     <td>時間、時刻</td>
     <td>時間、時、分、秒、ミリ秒</td>
     <td>個別の単位</td>
@@ -472,7 +472,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>24</td>
+    <td>32</td>
     <td>長さ</td>
     <td>mm、km、ミリメートル、センチメートル</td>
     <td></td>
@@ -480,7 +480,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>24</td>
+    <td>32</td>
     <td>質量</td>
     <td>g、kg、t、グラム、キログラム、トン</td>
     <td></td>
@@ -488,15 +488,15 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>24</td>
+    <td>32</td>
     <td>面積、体積</td>
-    <td>㎡、平方メートル、立法メートル</td>
+    <td>㎡、平方メートル、立方メートル</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
     <td></td>
-    <td>24</td>
+    <td>32</td>
     <td>電気</td>
     <td>A、W、V、アンペア、ワット、ボルト</td>
     <td></td>
@@ -504,7 +504,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>25</td>
+    <td>33</td>
     <td>温度</td>
     <td>℃</td>
     <td></td>
@@ -512,7 +512,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>25</td>
+    <td>33</td>
     <td>周波数</td>
     <td>Hz、ヘルツ</td>
     <td></td>
@@ -520,7 +520,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>25</td>
+    <td>33</td>
     <td>速度</td>
     <td>m/s、キロメートル毎時、分速～km</td>
     <td></td>
@@ -528,7 +528,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>25</td>
+    <td>33</td>
     <td>伝送速度</td>
     <td>bps、Kbps、バイト/秒</td>
     <td></td>
@@ -536,7 +536,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>25</td>
+    <td>33</td>
     <td>割合</td>
     <td>％、パーセント</td>
     <td></td>
@@ -544,7 +544,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>25</td>
+    <td>33</td>
     <td>角度</td>
     <td>90°、90度</td>
     <td></td>
@@ -552,7 +552,7 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>25</td>
+    <td>33</td>
     <td>記憶容量</td>
     <td>ビット、バイト、Kb、KB、Mb、MB</td>
     <td></td>
@@ -560,17 +560,9 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td></td>
-    <td>25</td>
+    <td>33</td>
     <td>通貨</td>
     <td>円、米ドル、ユーロ、＄、USD</td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td></td>
-    <td>25</td>
-    <td>その他</td>
-    <td></td>
     <td></td>
     <td></td>
 </tr>
