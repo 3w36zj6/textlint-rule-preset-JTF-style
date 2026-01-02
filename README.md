@@ -593,14 +593,14 @@ A. `.textlintrc` にルール毎の設定を追加することが出来ます。
 
 - [textlintで日本語の文章をチェックする | Web Scratch](https://efcl.info/2015/09/10/introduce-textlint/ "textlintで日本語の文章をチェックする | Web Scratch")
 
-`1.2.2.ピリオド(.)とカンマ(,)`のルールを無効化したい場合は、`.textlintrc`に次のように`false`値を設定することで無効化出来ます。
+`1.2.2.ピリオド（.）とカンマ（,）`のルールを無効化したい場合は、`.textlintrc`に次のように`false`値を設定することで無効化出来ます。
 デフォルトでは`textlint-rule-preset-jtf-style`に含まれるルールが全て有効化されています。
 
 ```json5
 {
     "rules": {
         "preset-jtf-style": {
-            "1.2.2.ピリオド(.)とカンマ(,)": false
+            "1.2.2.ピリオド（.）とカンマ（,）": false
         }
     }
 }
