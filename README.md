@@ -287,8 +287,8 @@ textlint --fix /path/to/target.md
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.1.1.js">4.1.1.js</a></td>
-    <td>21</td>
+    <td><a href="src/3.1.1.js">3.1.1.js</a></td>
+    <td>26</td>
     <td>句点（。）</td>
     <td>全角</td>
     <td>句読点</td>
@@ -296,151 +296,151 @@ textlint --fix /path/to/target.md
 </tr>
 <tr>
     <td>不可(1.2.2参照)</td>
-    <td>21</td>
+    <td>27</td>
     <td>読点（、）</td>
     <td>全角</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.1.3.js">4.1.3.js</a> (1.2.2参照)</td>
-    <td>21</td>
+    <td><a href="src/3.1.3.js">3.1.3.js</a> (1.2.2参照)</td>
+    <td>27</td>
     <td>ピリオド（.）、カンマ（,）</td>
     <td>半角</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.2.1.js">4.2.1.js</a></td>
-    <td>21</td>
+    <td><a href="src/3.2.1.js">3.2.1.js</a></td>
+    <td>27</td>
     <td>感嘆符（！）</td>
     <td>全角。和文では多用しない。</td>
     <td>記号</td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.2.2.js">4.2.2.js</a></td>
-    <td>22</td>
+    <td><a href="src/3.2.2.js">3.2.2.js</a></td>
+    <td>28</td>
     <td>疑問符（？）</td>
     <td>全角。和文では多用しない。</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td>チェック項目なし</td>
-    <td>22</td>
-    <td>スラッシュ（/）</td>
+    <td>未実装</td>
+    <td>28</td>
+    <td>スラッシュ（/）（／）</td>
     <td>全角または半角</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.2.4.js">4.2.4.js</a></td>
-    <td>22</td>
+    <td><a href="src/3.2.4.js">3.2.4.js</a></td>
+    <td>29</td>
     <td>中黒（・）</td>
     <td>全角</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.2.5.js">4.2.5.js</a></td>
-    <td>22</td>
-    <td>波線（〜または～）</td>
+    <td><a href="src/3.2.5.js">3.2.5.js</a></td>
+    <td>29</td>
+    <td>波線（〜）</td>
     <td>全角</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.2.6.js">4.2.6.js</a></td>
-    <td>22</td>
+    <td><a href="src/3.2.6.js">3.2.6.js</a></td>
+    <td>29</td>
     <td>ハイフン（-）</td>
     <td>原則として和文では使用しない。</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.2.7.js">4.2.7.js</a></td>
-    <td>23</td>
+    <td><a href="src/3.2.7.js">3.2.7.js</a></td>
+    <td>29</td>
     <td>コロン（：）</td>
     <td>全角。和文では多用しない。</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.2.8.js">4.2.8.js</a></td>
-    <td>23</td>
+    <td><a href="src/3.2.8.js">3.2.8.js</a></td>
+    <td>30</td>
     <td>セミコロン（；）</td>
     <td>原則として和文では使用しない。</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.2.9.js">4.2.9.js</a></td>
-    <td>23</td>
-    <td>ダッシュ（－）</td>
+    <td><a href="src/3.2.9.js">3.2.9.js</a></td>
+    <td>30</td>
+    <td>ダッシュ（―）</td>
     <td>原則として和文では使用しない。</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.3.1.js">4.3.1.js</a></td>
-    <td>23</td>
+    <td><a href="src/3.3.1.js">3.3.1.js</a></td>
+    <td>30</td>
     <td>丸かっこ（）</td>
     <td>全角</td>
     <td>かっこ</td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.3.2.js">4.3.2.js</a></td>
-    <td>23</td>
+    <td><a href="src/3.3.2.js">3.3.2.js</a></td>
+    <td>30</td>
     <td>大かっこ［］</td>
     <td>全角</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.3.3.js">4.3.3.js</a></td>
-    <td>23</td>
+    <td><a href="src/3.3.3.js">3.3.3.js</a></td>
+    <td>30</td>
     <td>かぎかっこ「」</td>
     <td>全角</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.3.4.js">4.3.4.js</a></td>
-    <td>23</td>
+<td><a href="src/3.3.4.js">3.3.4.js</a></td>
+    <td>31</td>
     <td>二重かぎかっこ『』</td>
     <td>全角</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.3.5.js">4.3.5.js</a> (対の有無)</td>
-    <td>23</td>
+<td><a href="src/3.3.5.js">3.3.5.js</a> (対の有無)</td>
+    <td>31</td>
     <td>二重引用符\" \"</td>
     <td>半角。和文では多用しない。</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.3.6.js">4.3.6.js</a> (対の有無)</td>
-    <td>24</td>
-    <td>中かっこ{}</td>
+    <td><a href="src/3.3.6.js">3.3.6.js</a> (対の有無)</td>
+    <td>31</td>
+    <td>中かっこ{ }</td>
     <td>原則として和文では使用しない。</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.3.7.js">4.3.7.js</a> (対の有無)</td>
-    <td>24</td>
-    <td>山かっこ＜＞</td>
+    <td><a href="src/3.3.7.js">3.3.7.js</a> (対の有無)</td>
+    <td>31</td>
+    <td>山かっこ〈 〉</td>
     <td>原則として和文では使用しない。</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
-    <td><a href="src/4.3.8.js">4.3.8.js</a> (対の有無)</td>
-    <td>24</td>
+    <td><a href="src/3.3.8.js">3.3.8.js</a> (対の有無)</td>
+    <td>31</td>
     <td>一重引用符' '</td>
     <td>原則として和文では使用しない。</td>
     <td></td>
