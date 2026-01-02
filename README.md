@@ -732,9 +732,14 @@ npm install -D textlint-rule-preset-jtf-style
 
 ## License
 
-    by Japan Translation Federation (CC BY-SA) www.jtf.jp
-    本著作物は「JTF日本語標準スタイルガイド2.0」(JTF, CC BY-SA)を改変して作成したものです。
+```plaintext
+by Japan Translation Federation (CC BY 4.0)
+www.jtf.jp (CC BY 4.0)
+本著作物は「JTF日本語標準スタイルガイド 第3.0版」（JTF、CC BY 4.0）を改変して作成したものです。
+```
 
 - [JTFスタイルガイドとCCライセンスの素敵な関係 | JTFジャーナルWeb](https://webjournal.jtf.jp/back-number/#b271/6/ "JTFスタイルガイドとCCライセンスの素敵な関係 | JTFジャーナルWeb")
+
+JTFスタイルガイドは第3.0版から「CC BY 4.0」に変更されました（第2.3版以前は「CC BY-SA 4.0」です）。
 
 その他のコードはMITライセンスです。
