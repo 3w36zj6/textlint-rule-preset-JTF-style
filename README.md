@@ -88,7 +88,7 @@ textlint --fix /path/to/target.md
 <table>
 <tr>
     <th>対応ルール</th>
-    <th>ページ（v2.1）</th>
+    <th>ページ（v3.0）</th>
     <th>小項目</th>
     <th>JTF標準ルール</th>
     <th>中項目</th>
