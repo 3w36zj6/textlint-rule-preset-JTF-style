@@ -417,7 +417,7 @@ textlint --fix /path/to/target.md
 <tr>
 <td><a href="src/3.3.5.js">3.3.5.js</a> (対の有無)</td>
     <td>31</td>
-    <td>二重引用符\" \"</td>
+    <td>二重引用符" "</td>
     <td>半角。和文では多用しない。</td>
     <td></td>
     <td></td>
