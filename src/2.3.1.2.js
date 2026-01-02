@@ -8,8 +8,7 @@ const rx = regx("g");
 /*
 2.3.1.2.全角文字どうし
 
-原則として、全角文字どうしの間にスペースを入れません。ただしカタカナ複合語の場合を除きます。
-「2.1.7 カタカナ複合語」を参照してください。
+原則として、全角文字どうしの間にスペースを入れません。カタカナ複合語の場合は「2.1.7 カタカナ複合語」を参照してください。
  */
 function reporter(context) {
     let { Syntax, RuleError, report, fixer, getSource } = context;
