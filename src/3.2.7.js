@@ -1,8 +1,8 @@
 // LICENSE : MIT
 "use strict";
 /*
-3.2.7.コロン(：)
-原則として和文ではコロン(:)を使用しません。
+3.2.7.コロン（：）
+原則として和文ではコロン（：）を使用しません。
 原文でコロンが使われている場合も、和文では使用しません。
 ただし和文でも、見出し語とその説明の間にコロンを使う場合があります。使用する場合は全角で表記します。
  */
@@ -26,7 +26,7 @@ function reporter(context) {
                 const { index } = match;
                 report(
                     node,
-                    new RuleError("コロン(：)を使用する場合は「全角」で表記します。", {
+                    new RuleError("コロン（：）を使用する場合は「全角」で表記します。", {
                         index: index,
                         fix: fixer.replaceTextRange([index, index + 1], "：")
                     })

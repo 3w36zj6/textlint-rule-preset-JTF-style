@@ -1,7 +1,7 @@
 // LICENSE : MIT
 "use strict";
 /*
-3.2.5.波線(〜)
+3.2.5.波線（〜）
 数値の範囲を示す場合に使用します。
  */
 import { isUserWrittenNode } from "./util/node-util";

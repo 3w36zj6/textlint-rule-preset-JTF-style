@@ -1,13 +1,13 @@
 // LICENSE : MIT
 "use strict";
 /*
-3.2.2.疑問符(?)
+3.2.2.疑問符（？）
 和文の実務文章の場合、本文では疑問符を多用しません。
 原文で疑問符が使われている場合も、和文ではできるだけ句点を使用します。
 ただし、見出しや広告関連の文章、読み手の回答を求める質問文など、
 疑問符の使用が適切と判断される場合には、疑問符を使用します。
 使用する場合は「全角」で表記します。
-文末に疑問符を使用し、後に別の 文が続く場合は、直後に全角スペースを挿入します。
+文末に疑問符を使用し、後に別の文が続く場合は、直後に全角スペースを挿入します。
 文中に疑問符を使用する場合はスペースを挿入しません。
  */
 import { isUserWrittenNode } from "./util/node-util";
@@ -29,7 +29,7 @@ function reporter(context) {
                 const { index } = match;
                 return report(
                     node,
-                    new RuleError("疑問符(？)を使用する場合は「全角」で表記します。", {
+                    new RuleError("疑問符（？）を使用する場合は「全角」で表記します。", {
                         index: index,
                         fix: fixer.replaceTextRange([index, index + 1], "？")
                     })

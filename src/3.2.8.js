@@ -1,8 +1,8 @@
 // LICENSE : MIT
 "use strict";
 /*
-3.2.8.セミコロン(;)
-原則として和文ではセミコロン(;)を使用しません。
+3.2.8.セミコロン（；）
+原則として和文ではセミコロン（；）を使用しません。
 原文でセミコロンが使われている場合も、和文では使用しません。
  */
 import { isUserWrittenNode } from "./util/node-util";
@@ -24,7 +24,7 @@ module.exports = function (context) {
                 const { index } = match;
                 report(
                     node,
-                    new RuleError("原則として和文ではセミコロン(;)を使用しません。", {
+                    new RuleError("原則として和文ではセミコロン（；）を使用しません。", {
                         index: index
                     })
                 );

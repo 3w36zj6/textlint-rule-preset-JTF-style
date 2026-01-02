@@ -3,7 +3,7 @@
 /*
 3.3.1.丸かっこ（）
 直前の内容を補足して説明する場合や言い換える場合に使用します。
-全角のかっこを使用します
+全角のかっこを使用します。
  */
 import { isUserWrittenNode } from "./util/node-util";
 import { matchCaptureGroupAll } from "match-index";

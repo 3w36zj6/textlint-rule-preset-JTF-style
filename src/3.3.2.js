@@ -3,7 +3,7 @@
 /*
 3.3.2.大かっこ［］
 コンピューターの画面用語などの特殊な表記で使用します。
-全角の大かっこを使用します
+全角の大かっこを使用します。
  */
 import { isUserWrittenNode } from "./util/node-util";
 import { matchCaptureGroupAll } from "match-index";
