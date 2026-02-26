@@ -199,7 +199,7 @@ textlint --fix /path/to/target.md
     <td></td>
 </tr>
 <tr>
-    <td>不可</td>
+    <td><a href="src/2.1.7.js">2.1.7.js</a></td>
     <td>17</td>
     <td>カタカナ複合語</td>
     <td>中黒または半角スペースで区切る。</td>
